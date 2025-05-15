@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+
+}
+.toolbox{
+    position: absolute;
+    width: 500px;
+    height: fit-content;
+    padding: 10px;
+    background-color: #FFECA1 ;
+    box-shadow: 0 0 3px 3px #EDECE7;
+    border-radius: 10px;
+    top: 100%;
+    left: calc(50% - 250px);
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+}
+.fa-solid{
+    color: #5A3E1B;
+}
+.style{
+    color: white;
+    background-color: #5A3E1B;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 1px  grey;
+
+}
+.style:hover{
+    box-shadow: 0 0 5px 3px grey;
+}
