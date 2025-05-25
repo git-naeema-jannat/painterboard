@@ -18,7 +18,7 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.word {
+.neon {
     text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
     color: #0ff;
   }

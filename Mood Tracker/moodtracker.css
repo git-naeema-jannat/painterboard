@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month{
+    width: 80%;
+    height: 80%;
+
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.days{
+    border: 1px solid black;
+}
