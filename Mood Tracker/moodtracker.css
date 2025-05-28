@@ -26,3 +26,6 @@ body{
 .days{
     border: 1px solid black;
 }
+.days > * {
+  pointer-events: none;
+}
